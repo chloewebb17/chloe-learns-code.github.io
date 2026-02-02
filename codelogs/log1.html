@@ -17,25 +17,37 @@
 <body>
 
 	<h1>Code Log 1: HTML Semantic Tags</h1>
-
     <p><b>Semantic tags</b> are HTML tags that clearly define their purpose to the browser and developer.</p> 
-
     <p>For example, a tag named "header" suggests that the text within the tag will be a header:</p>
 
-    <textarea cols="40" rows="3">
+    <textarea cols="35" rows="3">
 <header>I'm a header!</header>
     </textarea>
 
+    <hr>
+
     <h2>Non-semantic vs Semantic tags</h2>
-    
     <p>Not all tags are semantic. If you want to make text thicker, you could use either the semantic <code>&lt;strong&gt;</code> tag, or the non-semantic <code>&lt;b&gt;</code> tag.</p>
-
     <p>Strong actually indicates the function of the tag, but B is just a letter. As a designer myself, B seems a little more intuitive, but arguing about that would be... semantics (wink).</p>
+    <p>Generally, the idea is that non-semantic tags need much more context to be understood. Semantic tags describe the content within them, while non-semantic tags do not have any inherent meaning.</p>
+    <p>Let's look at some examples of both types of tags now.</p>
 
-    <p>Generally, the idea is that non-semantic code needs much more context to be understood. Let's look at some examples of semantic and non-semantic tags now.</p>
-
+    <h3>Semantic Tags</h3>
         <ul>
+            <li><code>&lt;header&gt;</code></li>
             <li><code>&lt;strong&gt;</code></li>
+            <li><code>&lt;section&gt;</code></li>
+            <li><code>&lt;article&gt;</code></li>
+            <li><code>&lt;figure&gt;</code></li>
+        </ul>
+
+    <h3>Non-Semantic Tags</h3>
+        <ul>
+            <li><code>&lt;h1&gt;</code></li>
+            <li><code>&lt;b&gt;</code></li>
+            <li><code>&lt;div&gt;</code></li>
+            <li><code>&lt;span&gt;</code></li>
+            <li><code>&lt;font&gt;</code></li>
         </ul>
 
 </body>
